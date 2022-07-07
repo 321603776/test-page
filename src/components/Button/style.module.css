@@ -1,0 +1,11 @@
+.button {
+    background: radial-gradient(50% 115.18% at 50% -15.18%, #8F00FF 0%, #532BC5 100%);
+    padding: 16px 0;
+    text-align: center;
+    border: none;
+    min-width: 390px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
