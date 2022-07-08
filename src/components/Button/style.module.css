@@ -8,4 +8,16 @@
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.29px;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 18.92px;
+    height: 15.54px;
+    background-image: url("./../../img/gang_icon.png");
+    background-size: 100% 100%;
 }

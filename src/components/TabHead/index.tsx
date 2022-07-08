@@ -1,5 +1,5 @@
 import style from './style.module.css'
-export default function () {
+export default function (props: { count: number }) {
     return (
         <div className={style.tabHead}>
             <div>
@@ -7,7 +7,7 @@ export default function () {
             </div>
             <div className={style.action}>
                 <span>Posts</span>
-                <span className={style.subscript}>4</span>
+                <span className={style.subscript}>{props.count}</span>
             </div>
         </div>
     )
